@@ -40,8 +40,8 @@ http://localhost:<port>/api/users/create
 
 require params in req.body
 
-1: username
-2: password
+    1: username
+    2: password
 
 ## Get All Users
 # Method GET
@@ -58,8 +58,8 @@ http://localhost:<port>/api/roles/create
 
 send params in req.body
 
-1: userId
-2: roleId
+    1: userId
+    2: roleId
 
 ## Get All Roles
 # Method GET
@@ -75,9 +75,9 @@ http://localhost:<port>/api/permissions/create
 
 send params in req.body
 
-1: title
-2: modelType
-3: method
+    1: title
+    2: modelType
+    3: method
 
 ## Get All Permissions
 # Method GET
@@ -93,8 +93,8 @@ http://localhost:<port>/api/user-roles/create
 
 send params in req.body
 
-1: userId
-2: roleId
+    1: userId
+    2: roleId
 
 ## Get All User Roles
 # Method GET
@@ -110,8 +110,8 @@ http://localhost:<port>/api/roles-permission/create
 
 send params in req.body
 
-1: roleId
-2: permissionId
+    1: roleId
+    2: permissionId
 
 ## Get All Roles Permission
 # Method GET
