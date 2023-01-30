@@ -35,17 +35,3 @@ export {
   sequelize,
 };
 
-// db.Matches = require('./matches.model')(sequelize, Sequelize)
-// db.Bookmakers = require('./bookmakers.model')(sequelize, Sequelize)
-// db.Markets = require('./markets.model')(sequelize, Sequelize)
-// db.Outcomes = require('./outcomes.model')(sequelize, Sequelize)
-// db.Plans = require('./plans.model')(sequelize, Sequelize)
-// db.Subscriptions = require('./subscriptions.model')(sequelize, Sequelize)
-
-// db.Matches.hasMany(db.Markets)
-// db.Markets.belongsTo(db.Bookmakers)
-// db.Markets.hasMany(db.Outcomes)
-// db.Subscriptions.belongsTo(db.Users)
-// db.Subscriptions.belongsTo(db.Plans)
-// db.Bookmakers.hasMany(db.Markets)
-// db.Markets.belongsTo(db.Matches)
